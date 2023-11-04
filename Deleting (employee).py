@@ -1,4 +1,5 @@
 #Deleting a record
+#Make sure to give your own username password and database
 import mysql.connector as mys
 mycon = mys.connect(host = 'localhost', user = 'root', passwd = 'root', database = 'supermarket')
 mycursor = mycon.cursor()
