@@ -1,3 +1,4 @@
+#Create your own database, update user name and password to your own!
 import mysql.connector as mys
 mycon = mys.connect(host = 'localhost', user = 'root', passwd = 'root', database = 'company')
 mycursor = mycon.cursor()
